@@ -21,3 +21,12 @@ def cdg_url(expr: IntoExprColumn) -> pl.Expr:
         function_name="cdg_url",
         is_elementwise=True,
     )
+
+
+def version(expr: IntoExprColumn) -> pl.Expr:
+    return register_plugin_function(
+        args=[expr],
+        plugin_path=LIB,
+        function_name="version",
+        is_elementwise=True,
+    )

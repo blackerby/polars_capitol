@@ -15,5 +15,7 @@ df = pl.DataFrame(
 s = pl.col("package_id").str.split(by="-").list.get(1, null_on_oob=True)
 expr = cap.cdg_url(s)
 result = df.with_columns(cdg_url=expr)
+expr = cap.version(s)
+result = df.with_columns(version=expr)
 
 print(result)
