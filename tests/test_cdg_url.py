@@ -10,6 +10,7 @@ def test_cdg_url():
                 "BILLS-118hr8070ih",
                 "BILLS-118s25",
                 "CRPT-118hrpt529",
+                "CPRT-119hprt58246",
             ]
         }
     )
@@ -24,12 +25,14 @@ def test_cdg_url():
                 "BILLS-118hr8070ih",
                 "BILLS-118s25",
                 "CRPT-118hrpt529",
+                "CPRT-119hprt58246",
             ],
             "cdg_url": [
                 "https://www.congress.gov/bill/118th-congress/house-bill/8070",
                 "https://www.congress.gov/bill/118th-congress/house-bill/8070/text/ih",
                 "https://www.congress.gov/bill/118th-congress/senate-bill/25",
                 "https://www.congress.gov/congressional-report/118th-congress/house-report/529",
+                "https://www.congress.gov/committee-print/119th-congress/house-committee-print/58246",
             ],
         }
     )

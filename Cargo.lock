@@ -109,9 +109,9 @@ checksum = "f61dac84819c6588b558454b194026eb1f09c293b9036ae9b159e74e73ab6cf9"
 
 [[package]]
 name = "capitol"
-version = "0.2.1"
+version = "0.2.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7b95327b763db5e6358e20a1b3ce78b52cd8ca1127c74ed1280d87b0fa807143"
+checksum = "c33ded8cc4d9f1148cdb26c098d10faef6e3e8c324c1ddd100d45aee39e8d1e9"
 
 [[package]]
 name = "castaway"
@@ -603,7 +603,7 @@ dependencies = [
 
 [[package]]
 name = "polars-capitol"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "capitol",
  "polars",
